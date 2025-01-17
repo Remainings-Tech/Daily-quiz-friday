@@ -1,0 +1,13 @@
+#kenny
+#1/17/25
+#3) Write a program that sets up a python list holding the names of your top five celebrities (athletes, musicians, writers, actors, etc). Print out the list. Append the name of a friend it this class. Print it again. Then print just the first and third slots (note: NOT index 1 and 3, but the actual first and third elements of the list).
+# 12 minutes
+
+FamousFigures = ["Weeknd", "Dwayne Johnson", "Tom Cruise", "Patton Oswalt", "Ruben Sim"]#5 famous people i know
+print(FamousFigures)
+FamousFigures.append("Kenny")#character from south park in colorado
+print(FamousFigures)
+FamousFigures.sort()
+print(FamousFigures)
+FamousFigures.remove("Tom Cruise")
+print(FamousFigures)
