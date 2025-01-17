@@ -1,0 +1,12 @@
+#kenny
+#1/17/25
+#1) Write a program that asks a user for two numbers. If the first one is larger, the program prints out "first one bigger!". Otherwise it prints out "second one bigger!".
+# 12 minutes
+firstnumber = int(input("Enter the first number: "))
+secondnumber = int(input("Enter the second number: "))
+
+#compare the number and checks which one has the biggest.
+if firstnumber > secondnumber:
+    print("The first one is bigger")
+else:
+    print("The second one is bigger")
